@@ -1,0 +1,48 @@
+#main {
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+  }
+  #title {
+    background: #1F18C0;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    padding: 40px;
+    margin: -10px;
+  }
+  #img-div {
+  text-align: center;
+  display: block;
+  margin: auto;
+  width: 100%;
+  }
+  #image {
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  }
+
+  #img-caption {
+   background: #1F18C0;
+   color: white;
+   font-size: 20px;
+   text-align: center;
+   padding: 20px;
+  }
+  #tribute-info {
+   color: #1F18C0;
+   background: white;
+   font-family: monospace;
+   font-size: 20px;
+   margin: 40px;
+   width: 400px;
+  }
+  #tribute-link {
+   color: #1F18C0;
+   background: white;
+   font-family: monospace;
+   font-size:30px;
+}

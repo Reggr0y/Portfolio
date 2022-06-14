@@ -1,0 +1,200 @@
+
+html {
+    font-family: Tahoma;
+    background-color: #002199;
+    color: white;
+    margin: 0;
+    text-align: center;
+  }
+  
+  body {
+   margin: 0;
+  }
+  
+  h1 {
+    font-weight: 800;
+    font-size: 70px;
+    text-shadow: 5px 5px black;
+  }
+  
+  h2 {
+    font-weight: 600;
+    font-size: 50px;
+    margin-left: 20px;
+    text-shadow: 5px 5px black;
+    text-align: left;
+  }
+  
+  p {
+     text-shadow: 3px 3px black;
+  }
+  
+  a:link {
+    color: white;
+    text-shadow: 3px 3px black;
+    text-decoration: none;
+  } 
+  
+  a:visited {
+    color: #F7ef8a;
+  }
+  
+  a:hover {
+    color: #F7ef8a;
+  }
+  
+  ul {
+    display: block;
+  }
+  
+  footer {
+    background-color: black;
+    margin-top: 0;
+    padding: 30px;
+  }
+  
+  .bold {
+    font-weight: 800;
+  }
+  
+  .main {
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+  
+  .projects {
+    font-size: 20px;
+  }
+  
+  #navbar {
+  padding: 20px;
+  width: 100%;
+  font-size: 20px;
+  background: linear-gradient(180deg, black, #002199);
+  font-size: 40px;
+  position: fixed;
+  top: 0; 
+  border: none;
+  margin: 0px;
+  }
+  
+  #welcome-section {
+    padding: 100px;
+    background-color: #002199;
+    border-bottom: 15px dashed black;
+  }
+  
+  #title {
+    font-size: 30px;
+  }
+  
+  #projects {
+    background-image: url(https://blooloop.com/wp-content/uploads/2019/12/Atelier-des-Lumie%CC%80res-Japan-waves-%C2%A9-Culturespaces-_-E.-Spiller-1-1.jpg);
+    margin: 0;
+    padding: 24px 4px;
+    color: white;
+  }
+  
+  #project-tile {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 4rem;
+    width: 100%;
+    justify-content: center;
+  
+  }
+  
+  #project-tile a {
+    background-color: white;
+    text-shadow: none;
+    color: #002199;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 9px;
+  }
+  
+  #project-tile img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    padding: -10px;
+    background-color: white;
+    border: 2px solid black;
+  }
+  
+  #about {
+    border-top: 15px dashed black;
+    background-image: url(https://media.architecturaldigest.com/photos/5ba551bb44966b64d8d5fc2b/16:9/w_2560%2Cc_limit/hyper-blue-4.jpg);
+    padding-bottom: 20px;
+  }
+  
+  #language-tile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #language-tile img {
+    width: 80%;
+    object-fit: cover;
+    padding: -10px;
+    background-color: white;
+    border: 4px solid white;
+  }
+  
+  #certification {
+    font-size: 25px;
+  }
+  
+  .coffee {
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+  }
+  
+  #contact {
+    border-top: 15px solid black;
+    background: linear-gradient(180deg,#002199 ,black);
+    padding-bottom: 10px;
+  }
+  
+  
+  #contact h1 {
+    color: white;
+    padding-top: 50px;
+  }
+  
+  #contact p {
+    font-size: 40px;
+    color: white;
+    margin-top: -30px;
+  }
+  
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5rem;
+  }
+  
+  .contact-details img {
+    transition: transform 0.3s ease-out;
+    float:left;
+    margin-right: 4px;
+  }
+  
+  .btn {
+    padding: 0 50px;
+  }
+  
+  
+  @media only screen and (max-width: 768px) {
+    * {
+      width:50%;
+    }
+  }
+  

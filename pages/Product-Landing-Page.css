@@ -1,0 +1,106 @@
+
+html { font-family: Tahoma;  display: block; 
+}
+
+header {
+  margin-top: 40px;
+float: inline;
+}
+
+body {
+ background-color: #62a4ab;
+ background-image: url("https://images-cdn.9gag.com/photo/aVwWV3M_700b.jpg");
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #00B0C8;
+  text-shadow: 2px 1px 0 #000;
+background-color:  #AAFC96 ;
+border-radius: 9px;
+margin: 20px 20px;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+h1 {
+margin-top: 40px;
+text-align: center;
+}
+
+h2 {
+  padding-left: 20px;
+}
+
+p, label {
+  color: white;
+  font-size: 19px;
+  padding: 10px;
+}
+
+form {
+background-image: url("https://preview.redd.it/p1393jl5kv141.jpg?auto=webp&s=06f3b632408d9f356d15934736a1a12be0601a4c");
+}
+
+footer {
+  text-align: center;
+  text-shadow: 1px 1px 0 #000;
+  border: 1px solid #AAFC96 ;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a  {
+ font-weight: bold;
+  color: #00B0C8;
+  text-shadow: 2px 1px 0 #000;
+background-color:  #AAFC96 ;
+}
+
+#header-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 100%;
+}
+
+#nav-bar {
+background-color:white;position: fixed;
+padding: 10px;
+width: 95%;
+border-radius: 25px;
+text-align: center;
+top: 0; 
+}
+
+#video {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#gallery img {
+  width: 50%;
+  height: 300px;
+}
+
+@media (max-width: 800px) {
+  #gallery img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 600px){
+  #gallery img {
+    width: 100%
+  }
+}

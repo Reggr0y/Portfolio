@@ -1,12 +1,11 @@
-let myImage = document.querySelector(img);
+let myButton = document.querySelector('button');
+let myHeading = document.querySelector('h1');
 
-myImage.onclick = function() {
-    let mySrc = myImage.getAttribute('src');
-    if(mySrc === 'https://seeklogo.com/images/H/html5-with-wordmark-black-white-logo-A6222B77EC-seeklogo.com.png') {
-      myImage.setAttribute('src','https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png');
-    } else {
-      myImage.setAttribute('src','https://seeklogo.com/images/H/html5-with-wordmark-black-white-logo-A6222B77EC-seeklogo.com.png');
-    }
-}
+function setUserName() {
+    let myName = prompt('Please enter your name.');
+    localStorage.setItem('name', myName);
+    myHeading.textContent = 'Welcome, ' + myName;
+  }
+  
 
 

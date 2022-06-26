@@ -87,6 +87,13 @@ html {
   #title {
     font-size: 30px;
   }
+
+  #button {
+    font-size: 20px;
+    font-family: Tahoma;
+    background-color: #002199;
+    color: aliceblue;
+  }
   
   #projects {
     background-image: url(https://blooloop.com/wp-content/uploads/2019/12/Atelier-des-Lumie%CC%80res-Japan-waves-%C2%A9-Culturespaces-_-E.-Spiller-1-1.jpg);

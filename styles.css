@@ -144,7 +144,7 @@ html {
   }
   
   #language-tile img {
-    width: 80%;
+    width: 200px;
     object-fit: cover;
     padding: -10px;
     background-color: white;

@@ -24,9 +24,30 @@ let myName = prompt('Please enter your name.');
   myHTML.onclick = function() {
       let mySrc = myHTML.getAttribute('src');
       if(mySrc === 'https://seeklogo.com/images/H/html5-with-wordmark-black-white-logo-A6222B77EC-seeklogo.com.png') {
-        myHTML.setAttribute('src','https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png').style.width = "300px";
+        myHTML.setAttribute('src','https://seeklogo.com/images/H/html5-with-wordmark-color-logo-4259B7F24F-seeklogo.com.png').style.width = "300px";
       } else {
         myHTML.setAttribute('src','https://seeklogo.com/images/H/html5-with-wordmark-black-white-logo-A6222B77EC-seeklogo.com.png');
       }
   }
   
+  let myCSS = document.querySelector('#css');
+
+  myCSS.onclick = function() {
+      let mySrc = myCSS.getAttribute('src');
+      if(mySrc === 'https://seeklogo.com/images/C/css-3-logo-A4E6678598-seeklogo.com.png') {
+        myCSS.setAttribute('src','https://seeklogo.com/images/C/css3-logo-F1923C8D0E-seeklogo.com.png').style.width = "300px";
+      } else {
+        myCSS.setAttribute('src','https://seeklogo.com/images/C/css-3-logo-A4E6678598-seeklogo.com.png');
+      }
+  }
+
+  let myJS = document.querySelector('#js');
+
+  myJS.onclick = function() {
+      let mySrc = myJS.getAttribute('src');
+      if(mySrc === 'https://seeklogo.com/images/J/javascript-logo-851B872133-seeklogo.com.png') {
+        myJS.setAttribute('src','https://seeklogo.com/images/J/javascript-logo-E967E87D74-seeklogo.com.png').style.width = "300px";
+      } else {
+        myJS.setAttribute('src','https://seeklogo.com/images/J/javascript-logo-851B872133-seeklogo.com.png');
+      }
+  }

@@ -1,2 +1,5 @@
 # Portfolio
-My personal portfolio to showcase what I have learned so far.
+
+Project built with CSS, HTML, and JS in the frame of the FreeCodeCamp Web Responsive Design track.
+
+Live demo: [here](https://reggr0y.github.io/Portfolio/)

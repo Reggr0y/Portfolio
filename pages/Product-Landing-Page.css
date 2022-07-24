@@ -18,7 +18,7 @@ h1, h2 {
   text-shadow: 2px 1px 0 #000;
 background-color:  #AAFC96 ;
 border-radius: 9px;
-margin: 20px 20px;
+margin: 20px 0;
 padding-top: 5px;
 padding-bottom: 5px;
 }
@@ -40,6 +40,11 @@ p, label {
 
 form {
 background-image: url("https://preview.redd.it/p1393jl5kv141.jpg?auto=webp&s=06f3b632408d9f356d15934736a1a12be0601a4c");
+border: solid white 3px;
+}
+
+.video {
+  margin: auto auto;
 }
 
 footer {
@@ -56,6 +61,15 @@ a  {
   color: #00B0C8;
   text-shadow: 2px 1px 0 #000;
 background-color:  #AAFC96 ;
+}
+
+.container {
+  width: 90%;
+  margin: auto auto;
+}
+
+.box1 {
+  width: 100%;
 }
 
 #header-img {
@@ -86,11 +100,12 @@ top: 0;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  width: 80%;
+  margin: auto auto;
 }
 
 #gallery img {
-  width: 50%;
-  height: 300px;
+  height: 400px;
 }
 
 @media (max-width: 800px) {

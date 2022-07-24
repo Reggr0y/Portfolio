@@ -1,96 +1,68 @@
-form<!DOCTYPE html>
-<html>
-  <head>
-<title>My portfolio</title>
-	  <link rel="stylesheet" type="text/css" href="styles.css" />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
- 
- <!-- Navbar -->
-  <body>
-  <header>
-    <nav id="navbar" class="bold">
-      <a class="nav-link" href="#projects">Projects</a>
-      <a class="nav-link" href="#about">About</a>
-  <a class="nav-link" href="#contact">Contact</a>
-  </nav>
-</header>
-    
-<!-- Banner -->
-  <main class="main">
-    <div id="welcome-section">
-      <h1>Hello, my name is Greg</h1>
-      <p id="title">and here is my portfolio</p>
-    </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Survey-Form.css">
+  <title>Survey Form</title>
 
-<!-- Portfolio projects -->
-<div id="projects">
-  <h2>Projects</h2>
-  <div id="project-tile">
-    <div>
-      <img src="https://i.imgur.com/0WYlwZ1.png" alt="tribute"/>
-      <p class="projects bold">
-        <a href="https://codepen.io/reggr0y/pen/MWQWeKa" target="_blank">Tribute page</a>
-        </p>
-    </div>
-    <div>
-      <img src="https://i.imgur.com/vVxRbQQ.png" alt="form"/>
-      <p class="projects bold">
-        <a href="https://codepen.io/reggr0y/pen/QWaPoPB" target="_blank">Form</a>
-        </p>
-    </div>
-    <div>
-      <img src="https://i.imgur.com/KNdR3DF.png" alt="Product landing page"/>
-      <p class="projects bold">
-        <a href="https://codepen.io/reggr0y/pen/rNJGGjm" target="_blank">Product landing page</a>
-        </p>
-    </div>
-  </div>
-</div>
-    
-<!-- About me part -->
-<div id="about">
-  <h2>About</h2>
-  <div id="title">
-    <p>I have experience in the following languages:</p>
-  </div>
-  <div id="language-tile">
-      <div>
-      <img src="https://seeklogo.com/images/H/html5-with-wordmark-black-white-logo-A6222B77EC-seeklogo.com.png" alt="html 5 logo"/>
-    </div>
-        <div>
-      <img src="https://seeklogo.com/images/C/css-3-logo-A4E6678598-seeklogo.com.png"/>
-      </div>
-    </div>
-  <div>
-    <p id="title">Check out my certification:</p>
-    <ul id="certification">
-      <li><a href="" target="_blank">Responsive Web Design</a> by FreeCodeCamp</li>
-    </ul>
-  </div>
-</div>
-
-<!-- Contact -->
-<div id="contact">
-  <h2 >Contact</h2>
-  <div>
-    <h1>Do you want to work together?</h1>
-    <p> We can discuss around around a coffee</p>
-    <img class="coffee" src="https://img.freepik.com/free-vector/coffee-stain-ring-set-vector-illustration-drink-stain-stamp-with-round-shape-splash-element-coffee-cup-bottom-circle-effect_253081-687.jpg?w=2000" alt="coffee cup"/>
-  </div>
-    <div class="contact-links">
-      <a class="btn contact-details" href="https://github.com/Reggr0y" target="_blank" id="profile-link"><p><img src="https://rajlab.org/icons/github_white.png" alt="Github" height="80"/>GitHub</p></a>
-      <a href="https://www.linkedin.com/in/gr%C3%A9gory-wawszyniak-dumont-83836680/" target="_blank" class="btn contact-details"><p><img src="https://pnggrid.com/wp-content/uploads/2021/05/linkedin-logo-white-1024x1024.png" alt="Linkedin" height="60">LinkedIn</p></a>
-      <a href="mailto:email@test.com" target="_blank" class="btn contact-details"><p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Aiga_mail_white.svg/1200px-Aiga_mail_white.svg.png" alt="Linkedin" height="60">Email</p></a>
-  </div>
-</div>
-   </main>
-          
-<!-- Contact -->
- <footer>
-      <p> More to come soon... hopefully.</p> 
-    <p> © Created for freeCodeCamp </p>
-</footer>
-    </body>
+</head>
+<body>
+  <form id="survey-form">
+    <h1 id="title"> How Deep Is Your Love </h1>
+     <p id="description"> Calvin Harris, fandom form: </p>
+     
+   <div id="survey-form">
+     <label for="name" id="name-label" class="labels"> Name: </label> 
+       <div class="right">
+         <input type="text" id="name" placeholder="How can I call you?" class="input" required> 
+       </div>
+     <br> </br>
+     <label for="email" id="email-label" class="labels"> Email: </label>
+     <div class="right">
+       <input type="email" id="email" class="input" required placeholder="Where can I write to you?">
+     </div>
+     <br> </br>
+     <label for="number" id="number-label" class="labels"> Age: </label>
+   <div class="right">
+     <input id="number" class="input" min="1" max="120" type="number" placeholder="How many Springs have you seen?">
+   </div>
+   <br></br> 
+   <label for="food" class="labels"> How deep is your love?</label>
+   <div class="right">
+     <select id="dropdown" name="Deep" class="input ">
+       <option disabled value="select"> Select an option </option>
+       <option value="pizza"> the Ocean </option>
+       <option value="salad"> or Devotion  </option>
+       <option value="fried-rice"> Oh yeah </option>
+     </select>
+   </div>
+   <br> </br>
+   
+   <label class="labels" for="radio" > Calvin or Harris? </label>
+   <ul class="right" style="list-style: none;">
+     <li class="radio"> <input name="radio-buttons" value="1" type="radio"><label> Calvin</label></input> </li>
+     <li class="radio"><input name="radio-buttons" value="2" type="radio"></input><label> Harris</label></li>
+   </ul>
+   
+   <!-- checkbox -->
+   <label for="song" class="labels"> What is your favorite song? (check all that apply)</label>
+   <ul id="sports" style="list-style: none" class="right" >
+     <li class="checkbox"><label><input type="checkbox" id="summer" value="1"> Summer </label></input></li>
+     <li class="checkbox"><label><input type="checkbox" id="feels" value="2"> Feels </label></input></li>
+     <li class="checkbox"><label><input type="checkbox" id="outside" value="3"> Outside </label></input></li>
+     <li class="checkbox"><label><input type="checkbox" id="feel"value="4"> Feel so close </label></input></li>
+     <li class="checkbox"><label><input type="checkbox" id="blame" value="5"> Blame </label></input></li>
+   </ul>
+   <!-- comments -->
+   <label for="comment" class="labels"> Any Comments? </label>
+   <div>
+   <textarea name="comment" rows="8" columns="80" class="input right" placeholder="Enter comments here..."></textarea>
+   </div>
+   <br> </br>
+   <button id="submit" type="submit"> Submit </button>
+       </div>
+   </form>
+</body>
 </html>

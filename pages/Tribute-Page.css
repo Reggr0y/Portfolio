@@ -17,18 +17,17 @@
   width: 100%;
   }
   #image {
-  width: 100%;
+  width: 80%;
   height: auto;
   padding-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   display: block;
   }
 
   #img-caption {
    background: #1F18C0;
    color: white;
-   font-size: 20px;
+   font-size: 12px;
    text-align: center;
    padding: 20px;
   }
@@ -37,12 +36,17 @@
    background: white;
    font-family: monospace;
    font-size: 20px;
-   margin: 40px;
+   margin: 4rem auto;
    width: 400px;
   }
+
+  #tribute-info li {
+    text-align: left;
+  }
+
   #tribute-link {
    color: #1F18C0;
    background: white;
    font-family: monospace;
-   font-size:30px;
+   font-size:20px;
 }

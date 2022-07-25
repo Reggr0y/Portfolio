@@ -102,12 +102,18 @@ body {
     color: white;
   }
 
-  .project a {
+  .project a:any-link {
     background-color: white;
+    color: #002199;
     text-shadow: none;
     font-size: 1vw;
     padding: 1vw;
     border-radius: 9px;
+  }
+
+  .project a:hover {
+    background-color: #002199;
+    color: #F7ef8a;
   }
   
   #project-tile {
@@ -174,10 +180,14 @@ body {
     text-align: left;
   }
 
-  .certification a:visited {
+  .certification a:any-link {
     color: white;
   }
-  
+
+  .certification a:hover {
+    color: #F7ef8a;
+  }
+
   .coffee {
     height: 20vw;
     display: block;

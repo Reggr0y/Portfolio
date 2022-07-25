@@ -9,13 +9,13 @@ body {
   
   h1 {
     font-weight: 800;
-    font-size: 6vw;;
+    font-size: 5rem;
     text-shadow: 5px 5px black;
   }
   
   h2 {
     font-weight: 600;
-    font-size: 5vw;
+    font-size: 4rem;
     margin-left: 2vw;
     text-shadow: 5px 5px black;
     text-align: left;
@@ -58,10 +58,6 @@ body {
     margin-bottom: 0;
   }
   
-  .projects {
-    font-size: 2vw;
-  }
-  
   #navbar {
   padding: 2vw;
   width: 100%;
@@ -93,7 +89,7 @@ body {
   #projects {
     background-image: url(https://blooloop.com/wp-content/uploads/2019/12/Atelier-des-Lumie%CC%80res-Japan-waves-%C2%A9-Culturespaces-_-E.-Spiller-1-1.jpg);
     margin: 0;
-    padding: 24px 4px;
+    padding: 4vw 1vw;
     color: white;
   }
 
@@ -127,9 +123,9 @@ body {
   }
   
   #about {
-    border-top: 15px dashed black;
+    border-top: 2vw dashed black;
     background-image: url(https://media.architecturaldigest.com/photos/5ba551bb44966b64d8d5fc2b/16:9/w_2560%2Cc_limit/hyper-blue-4.jpg);
-    padding-bottom: 20px;
+    padding-bottom: 3vw;
   }
   
   #language-tile {
@@ -149,7 +145,7 @@ body {
   }
   
   #certification {
-    font-size: 2.5vw;
+    font-size: 2rem;
   }
 
   #certification a:visited {
@@ -173,20 +169,20 @@ body {
   
   #contact h1 {
     color: white;
-    padding-top: 1vw;
+    padding-top: 2vw;
   }
   
   #contact p {
     font-size: 3vw;
     color: white;
-    margin-top: -30px;
+    margin-top: -1vw;
   }
   
   .contact-links {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: 5rem;
+    margin-top: 5vw;
   }
   
   .contact-details img {

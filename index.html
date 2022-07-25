@@ -21,7 +21,7 @@ form<!DOCTYPE html>
     <main class="main">
       <div id="welcome-section">
         <h1>Hello, my name is Greg</h1>
-        <p id="title">here is my portfolio</p>
+        <p class="title">here is my portfolio</p>
       </div>
 
   <!-- Portfolio projects -->
@@ -29,9 +29,9 @@ form<!DOCTYPE html>
         <h2>Projects</h2>
         <div id="project-tile">
           <div>
-            <a href="https://codepen.io/reggr0y/pen/rNJGGjm" id="img-link"><img src="./img/Landing-Page.png" alt="Product landing page"/></a>
+            <a href="./pages/Product-Landing-Page.html" id="img-link"><img src="./img/Landing-Page.png" alt="Product landing page"/></a>
             <p class="project bold">
-              <a href="https://codepen.io/reggr0y/pen/rNJGGjm" target="_blank">Product landing page</a>- <a href="https://codepen.io/reggr0y/pen/rNJGGjm">Link to the code</a>
+              <a href="./pages/Product-Landing-Page.html" target="_blank">Product landing page</a>- <a href="https://codepen.io/reggr0y/pen/rNJGGjm">Link to the code</a>
               </p>
           </div>
           <div>
@@ -41,9 +41,9 @@ form<!DOCTYPE html>
               </p>
           </div>
           <div>
-              <a href="https://codepen.io/reggr0y/pen/QWaPoPB" id="img-link"><img src="./img/Tribute-Page.png" alt="tribute"/></a>
+              <a href="./pages/Tribute-Page.html" id="img-link"><img src="./img/Tribute-Page.png" alt="tribute"/></a>
             <p class="project bold">
-              <a href="https://codepen.io/reggr0y/pen/QWaPoPB" target="_blank">Tribute page</a> - <a href="https://codepen.io/reggr0y/pen/QWaPoPB">Link to the code</a>
+              <a href="./pages/Tribute-Page.html" target="_blank">Tribute page</a> - <a href="https://codepen.io/reggr0y/pen/QWaPoPB">Link to the code</a>
               </p>
           </div>
           <div>
@@ -59,9 +59,9 @@ form<!DOCTYPE html>
               </p>
           </div>
           <div>
-            <a href="https://codepen.io/reggr0y/pen/MWQWeKa" id="img-link"><img src="./img/Form.png" alt="form"/></a>
+            <a href="./pages/Survey-Form.html" id="img-link"><img src="./img/Form.png" alt="form"/></a>
             <p class="project bold">
-              <a href="https://codepen.io/reggr0y/pen/MWQWeKa" target="_blank">Form</a> - <a href="https://codepen.io/reggr0y/pen/MWQWeKa">Link to the code</a>
+              <a href="./pages/Survey-Form.html" target="_blank">Form</a> - <a href="https://codepen.io/reggr0y/pen/MWQWeKa">Link to the code</a>
               </p>
           </div>
         </div>
@@ -70,7 +70,7 @@ form<!DOCTYPE html>
       <!-- About me part -->
       <div id="about">
         <h2>About</h2>
-          <div id="title">
+          <div class="title">
             <p>I have experience in the following languages <br>(try me, click me, see me):</p>
           </div>
           <div id="language-tile">
@@ -84,12 +84,29 @@ form<!DOCTYPE html>
               <img src="https://seeklogo.com/images/J/javascript-logo-E967E87D74-seeklogo.com.png" alt="JavaScript" id="js"/>
             </div>
           </div>
-          <div>
-            <p id="title">Check out my certification:</p>
-            <img src="https://d33wubrfki0l68.cloudfront.net/78278bdf3a25d3e5558190b140cca9cbe86471e8/05e51/img/misuse-6.png" width="500px">
-            <ul id="certification">
-              <li><a href="https://www.freecodecamp.org/certification/Reggroy/responsive-web-design" target="_blank">Responsive Web Design</a></li>
-            </ul>
+          <div id="cert-block">
+            <p class="title">Check out my certifications:</p>
+            <img src="./img/Curriculum-img/FreeCodeCamp.png" width="500px">
+            <div class="cert-cont">
+              <ul class="certification">
+                <li><a href="https://www.freecodecamp.org/certification/Reggroy/responsive-web-design" target="_blank">Responsive Web Design</a></li>
+              </ul>
+              <ul class="certification">
+                <li><a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/" target="_blank">JavaScript Algorithms and Data Structures</a></li>
+              </ul>
+            </div>
+          </div>
+          <div id="curri-block">
+            <p class="title">And the coding curriculum:</p>
+            <img src="./img/Curriculum-img/the-odin-project-logo-skill-finder-partners-page.png" width="500px">
+            <div class="cert-cont">
+              <ul class="certification">
+                <li><a href="https://www.theodinproject.com/paths/foundations/courses/foundations" target="_blank">Foundations</a></li>
+              </ul>
+              <ul class="certification">
+                <li><a href="https://www.theodinproject.com/paths/full-stack-javascript?" target="_blank">Full Stack JavaScript</a></li>
+              </ul>
+            </div>
           </div>
       </div>
 
